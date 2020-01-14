@@ -6,7 +6,7 @@ plugins {
 }
 
 group 'com.github.xadkile'
-version '1.0-SNAPSHOT'
+version '1.0'
 
 sourceCompatibility = 1.8
 
@@ -26,10 +26,10 @@ bintray{
         licenses=["Apache-2.0"]
         vcsUrl="https://github.com/xadkile/reusables.git"
         version{
-            name="1.0-SNAPSHOT"
-            desc="reusables version 1.0-SNAPSHOT"
+            name="1.0"
+            desc="reusables version 1.0"
             released= new Date()
-            vcsTag="1.0-SNAPSHOT"
+            vcsTag="1.0"
         }
     }
 }
@@ -68,7 +68,7 @@ publishing {
         reusablePublication(MavenPublication) {
             groupId "com.github.xadkile"
             artifactId "reusables"
-            version "1.0-SNAPSHOT"
+            version "1.0"
             //artifacts to upload
             artifact sourceJar
             artifact javadocJar

@@ -1,4 +1,4 @@
-package reusables.location
+package com.github.xadkile.reusables.location
 
 interface DistanceMatrix{
     fun getDistance(fromLocCode: String,toLocCode: String):Double?

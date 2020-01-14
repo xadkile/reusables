@@ -1,11 +1,9 @@
-package reusables.location
+package com.github.xadkile.reusables.location
 
-import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import kotlin.test.assertNotNull
 import kotlin.test.assertNull
-import kotlin.test.fail
 
 internal class DistanceMatrixImpTest {
 

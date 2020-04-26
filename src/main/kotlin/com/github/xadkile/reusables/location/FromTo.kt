@@ -1,5 +1,9 @@
 package com.github.xadkile.reusables.location
 
-data class FromTo(val fromId:String, val toId:String){
-    constructor():this("","")
+/**
+ * A pair of labels signifying a departure and a destination
+ */
+interface FromTo<T>{
+    fun getFromId():T
+    fun getToId():T
 }

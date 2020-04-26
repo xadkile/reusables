@@ -7,7 +7,7 @@ import kotlin.test.assertNull
 
 internal class DistanceMatrixImpTest {
 
-    private val distanceMatrix:DistanceMatrix = DistanceMatrixImp(
+    private val distanceMatrix = DistanceMatrixBasic(
         fromIndexList = listOf("loc1","loc2","loc3"),
         toIndexList = listOf("loc1","loc2","loc3"),
         distanceValue = listOf(listOf(0.0,300.0,400.0),

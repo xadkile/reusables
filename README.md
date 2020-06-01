@@ -4,7 +4,7 @@ import using gradle
 ```repositories {
     jcenter()
 }
-implementation 'com.github.xadkile:reusables:1.0'
+implementation 'com.github.xadkile:reusables:<version>'
 ```
 import using maven
 ```
@@ -18,7 +18,7 @@ import using maven
 <dependency>
 	<groupId>com.github.xadkile</groupId>
 	<artifactId>reusables</artifactId>
-	<version>1.0</version>
+	<version> {version} </version>
 	<type>pom</type>
 </dependency>
 ```

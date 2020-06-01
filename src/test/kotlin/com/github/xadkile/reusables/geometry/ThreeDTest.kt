@@ -1,4 +1,4 @@
-package com.github.xadkile.reusables.geo
+package com.github.xadkile.reusables.geometry
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals

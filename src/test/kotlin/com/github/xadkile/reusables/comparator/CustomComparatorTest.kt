@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
 
-internal class StringCustomComparatorTest {
+internal class CustomComparatorTest {
 
     @Test
     fun compare() {
@@ -12,7 +12,7 @@ internal class StringCustomComparatorTest {
             "str1","str2","str3","str4"
         )
 
-        val comparator = StringCustomComparator(order)
+        val comparator = CustomOrderComparator.create(order)
 
         val input = listOf(
             "str3","str0","str1"

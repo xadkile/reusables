@@ -13,4 +13,11 @@ abstract class CustomOrderComparator<T:Comparable<T>> (
         val index2: Int = this.order.indexOf(item2)
         return index1.compareTo(index2)
     }
+
+    companion object {
+        @JvmStatic
+        fun <T:Comparable<T>> create(order:List<T>):CustomOrderComparator<T>{
+            return object : CustomOrderComparator<T>(order){}
+        }
+    }
 }

@@ -1,4 +1,4 @@
-package com.github.xadkile.reusables.geo
+package com.github.xadkile.reusables.geometry
 
 interface ThreeD<T:Comparable<T>> : TwoD<T>{
     fun getHeight():T

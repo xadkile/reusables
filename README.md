@@ -1,7 +1,8 @@
 This is a collection of reusable classes for various purposes
 
 import using gradle
-```repositories {
+```
+repositories {
     jcenter()
 }
 implementation 'com.github.xadkile:reusables:<version>'
